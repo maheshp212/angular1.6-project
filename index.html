@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample Angular App</title>
+
+</head>
+<body ng-app="sample-app" ng-controller="mainAppCtrl">
+
+	<h1> Hello, this message is from root.
+	<h3> <a href="#/red"> Red </a> <a href="#/green"> Green </a> </h3>
+	<div ng-view> </div>
+	<script type="text/javascript" src="./libs/angular/angular.min.js"></script>
+	<script type="text/javascript" src="./libs/angular/angular-route.min.js"></script>
+	
+	<script type="text/javascript" src="./app.js"></script>
+	<script type="text/javascript" src="./app-controller.js"></script>
+	<script type="text/javascript" src="./app-filters.js"></script>
+	<script type="text/javascript" src="./app-functions.js"></script>
+	<script type="text/javascript" src="./app-service.js"></script>
+
+	<script type="text/javascript" src="./modules/red/red-controller.js"></script>
+	<script type="text/javascript" src="./modules/green/green-controller.js"></script>
+</body>
+</html>
